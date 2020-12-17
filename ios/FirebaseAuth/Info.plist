@@ -16,11 +16,6 @@
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
-	<key>FirebaseDynamicLinksCustomDomains</key>
-	<array>
-		<string>https://firebaseauth9823928498.page.link</string>
-		<string>https://example.com/promos</string>
-	</array>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
@@ -28,16 +23,23 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleIdentifier</key>
+			<string></string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.926378508731-g27qs7i8p2ue9n4lk08768pl4u5051jq</string>
+				<string>com.googleusercontent.apps.1089098292197-pspa0mb1ghtrhe16noqf9rn0f4jt7130</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>FirebaseDynamicLinksCustomDomains</key>
+	<array>
+		<string>https://firebaseauth9823928498.page.link</string>
+		<string>https://example.com/promos</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>

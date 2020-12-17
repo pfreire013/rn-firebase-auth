@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { View, TextInput, Button } from 'react-native';
 import auth from '@react-native-firebase/auth'
 import { useNavigation } from '@react-navigation/native';
+import Routes from './routes';
 
 // import { Container } from './styles';
 
@@ -21,7 +22,8 @@ const Register = () => {
       .then(() => {
         console.log('User account created & signed in!');
         sendAuthEmail()
-        navigation.goBack()
+        navigation.navigate('Home')
+
       })
       .catch(error => {
         if (error.code === 'auth/email-already-in-use') {

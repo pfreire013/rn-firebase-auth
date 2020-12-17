@@ -16,6 +16,7 @@ const ConfirmOTP = () => {
       console.log(confirmation);
       await confirmation.confirm(code);
       alert('Success code')
+      navigation.navigate('Home')
     } catch (error) {
       alert('Invalid code.');
     }

@@ -9,19 +9,6 @@ const Login = () => {
 
   const navigation = useNavigation()
 
-  useEffect(() => {
-    let unsubscribe = firebase.auth().onAuthStateChanged((user) => {
-      if (user) {
-        console.log('send email', user);
-      }
-      else {
-        console.log('error')
-      }
-    })
-
-    return unsubscribe()
-  }, [])
-
   function handleLogin() {
     auth()
       .signInWithEmailAndPassword(user, password)

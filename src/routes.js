@@ -12,6 +12,7 @@ import Register from './Register';
 const Stack = createStackNavigator()
 
 export default function Routes() {
+
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <NavigationContainer>
