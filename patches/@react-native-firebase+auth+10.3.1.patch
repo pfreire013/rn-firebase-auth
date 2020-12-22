@@ -7,8 +7,7 @@ index 0000000..0d259dd
 +o/classes
 diff --git a/node_modules/@react-native-firebase/auth/android/build/.transforms/c9753ac36dc6840e459cdc110f28e2f4/classes/classes.dex b/node_modules/@react-native-firebase/auth/android/build/.transforms/c9753ac36dc6840e459cdc110f28e2f4/classes/classes.dex
 new file mode 100644
-index 0000000..5fddd4a
-Binary files /dev/null and b/node_modules/@react-native-firebase/auth/android/build/.transforms/c9753ac36dc6840e459cdc110f28e2f4/classes/classes.dex differ
+index 0000000..e69de29
 diff --git a/node_modules/@react-native-firebase/auth/android/build/generated/source/buildConfig/debug/io/invertase/firebase/auth/BuildConfig.java b/node_modules/@react-native-firebase/auth/android/build/generated/source/buildConfig/debug/io/invertase/firebase/auth/BuildConfig.java
 new file mode 100644
 index 0000000..3f8c454
@@ -73,16 +72,13 @@ index 0000000..9e26dfe
 \ No newline at end of file
 diff --git a/node_modules/@react-native-firebase/auth/android/build/intermediates/compile_library_classes/debug/classes.jar b/node_modules/@react-native-firebase/auth/android/build/intermediates/compile_library_classes/debug/classes.jar
 new file mode 100644
-index 0000000..b26aa89
-Binary files /dev/null and b/node_modules/@react-native-firebase/auth/android/build/intermediates/compile_library_classes/debug/classes.jar differ
+index 0000000..e69de29
 diff --git a/node_modules/@react-native-firebase/auth/android/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar b/node_modules/@react-native-firebase/auth/android/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar
 new file mode 100644
-index 0000000..955296a
-Binary files /dev/null and b/node_modules/@react-native-firebase/auth/android/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar differ
+index 0000000..e69de29
 diff --git a/node_modules/@react-native-firebase/auth/android/build/intermediates/incremental/debug-mergeNativeLibs/merge-state b/node_modules/@react-native-firebase/auth/android/build/intermediates/incremental/debug-mergeNativeLibs/merge-state
 new file mode 100644
-index 0000000..2e1c7b2
-Binary files /dev/null and b/node_modules/@react-native-firebase/auth/android/build/intermediates/incremental/debug-mergeNativeLibs/merge-state differ
+index 0000000..e69de29
 diff --git a/node_modules/@react-native-firebase/auth/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml b/node_modules/@react-native-firebase/auth/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
 new file mode 100644
 index 0000000..d994b9a
@@ -128,28 +124,22 @@ index 0000000..987511d
 \ No newline at end of file
 diff --git a/node_modules/@react-native-firebase/auth/android/build/intermediates/javac/debug/classes/io/invertase/firebase/auth/BuildConfig.class b/node_modules/@react-native-firebase/auth/android/build/intermediates/javac/debug/classes/io/invertase/firebase/auth/BuildConfig.class
 new file mode 100644
-index 0000000..cce0a5f
-Binary files /dev/null and b/node_modules/@react-native-firebase/auth/android/build/intermediates/javac/debug/classes/io/invertase/firebase/auth/BuildConfig.class differ
+index 0000000..e69de29
 diff --git a/node_modules/@react-native-firebase/auth/android/build/intermediates/javac/debug/classes/io/invertase/firebase/auth/ReactNativeFirebaseAuthModule$1.class b/node_modules/@react-native-firebase/auth/android/build/intermediates/javac/debug/classes/io/invertase/firebase/auth/ReactNativeFirebaseAuthModule$1.class
 new file mode 100644
-index 0000000..2a38e0b
-Binary files /dev/null and b/node_modules/@react-native-firebase/auth/android/build/intermediates/javac/debug/classes/io/invertase/firebase/auth/ReactNativeFirebaseAuthModule$1.class differ
+index 0000000..e69de29
 diff --git a/node_modules/@react-native-firebase/auth/android/build/intermediates/javac/debug/classes/io/invertase/firebase/auth/ReactNativeFirebaseAuthModule$2.class b/node_modules/@react-native-firebase/auth/android/build/intermediates/javac/debug/classes/io/invertase/firebase/auth/ReactNativeFirebaseAuthModule$2.class
 new file mode 100644
-index 0000000..64954bb
-Binary files /dev/null and b/node_modules/@react-native-firebase/auth/android/build/intermediates/javac/debug/classes/io/invertase/firebase/auth/ReactNativeFirebaseAuthModule$2.class differ
+index 0000000..e69de29
 diff --git a/node_modules/@react-native-firebase/auth/android/build/intermediates/javac/debug/classes/io/invertase/firebase/auth/ReactNativeFirebaseAuthModule.class b/node_modules/@react-native-firebase/auth/android/build/intermediates/javac/debug/classes/io/invertase/firebase/auth/ReactNativeFirebaseAuthModule.class
 new file mode 100644
-index 0000000..a75dff7
-Binary files /dev/null and b/node_modules/@react-native-firebase/auth/android/build/intermediates/javac/debug/classes/io/invertase/firebase/auth/ReactNativeFirebaseAuthModule.class differ
+index 0000000..e69de29
 diff --git a/node_modules/@react-native-firebase/auth/android/build/intermediates/javac/debug/classes/io/invertase/firebase/auth/ReactNativeFirebaseAuthPackage.class b/node_modules/@react-native-firebase/auth/android/build/intermediates/javac/debug/classes/io/invertase/firebase/auth/ReactNativeFirebaseAuthPackage.class
 new file mode 100644
-index 0000000..9b872d0
-Binary files /dev/null and b/node_modules/@react-native-firebase/auth/android/build/intermediates/javac/debug/classes/io/invertase/firebase/auth/ReactNativeFirebaseAuthPackage.class differ
+index 0000000..e69de29
 diff --git a/node_modules/@react-native-firebase/auth/android/build/intermediates/library_java_res/debug/res.jar b/node_modules/@react-native-firebase/auth/android/build/intermediates/library_java_res/debug/res.jar
 new file mode 100644
-index 0000000..15cb0ec
-Binary files /dev/null and b/node_modules/@react-native-firebase/auth/android/build/intermediates/library_java_res/debug/res.jar differ
+index 0000000..e69de29
 diff --git a/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml b/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml
 new file mode 100644
 index 0000000..ca17d4f
@@ -1702,8 +1692,7 @@ index 0000000..32b2754
 +xml rn_dev_preferences
 diff --git a/node_modules/@react-native-firebase/auth/android/build/intermediates/runtime_library_classes/debug/classes.jar b/node_modules/@react-native-firebase/auth/android/build/intermediates/runtime_library_classes/debug/classes.jar
 new file mode 100644
-index 0000000..b26aa89
-Binary files /dev/null and b/node_modules/@react-native-firebase/auth/android/build/intermediates/runtime_library_classes/debug/classes.jar differ
+index 0000000..e69de29
 diff --git a/node_modules/@react-native-firebase/auth/android/build/intermediates/symbols/debug/R.txt b/node_modules/@react-native-firebase/auth/android/build/intermediates/symbols/debug/R.txt
 new file mode 100644
 index 0000000..eefd3e8

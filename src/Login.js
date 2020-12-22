@@ -14,19 +14,19 @@ const Login = () => {
       .signInWithEmailAndPassword(user, password)
       .then(() => {
         console.log('User account created & signed in!');
-        auth().currentUser.sendEmailVerification({
-          android: {
-            packageName: 'com.firebaseauth',
-            installApp: true,
-            minimumVersion: undefined,
-          },
-          handleCodeInApp: true,
-          iOS: {
-            bundleId: 'org.reactjs.native.example.FirebaseAuth'
-          },
-          url: 'https://firebaseauth9823928498.page.link',
-        })
-        //navigation.navigate('Home')
+        // auth().currentUser.sendEmailVerification({
+        //   android: {
+        //     packageName: 'com.firebaseauth',
+        //     installApp: true,
+        //     minimumVersion: undefined,
+        //   },
+        //   handleCodeInApp: true,
+        //   iOS: {
+        //     bundleId: 'org.reactjs.native.example.FirebaseAuth'
+        //   },
+        //   url: 'https://firebaseauth9823928498.page.link',
+        // })
+        navigation.navigate('Home')
       })
       .catch(error => {
         if (error.code === 'auth/email-already-in-use') {

@@ -8,7 +8,7 @@ import { useNavigation } from '@react-navigation/native';
 const PhoneLogin = () => {
   // If null, no SMS has been sent
   const [confirm, setConfirm] = useState(null);
-  const [phone, setPhone] = useState('')
+  const [phone, setPhone] = useState('+351938560732')
   const [code, setCode] = useState('');
   const navigation = useNavigation()
 
@@ -38,7 +38,7 @@ const PhoneLogin = () => {
         placeholder='Phone number'
         style={{ backgroundColor: '#FFF', height: 50, paddingHorizontal: 20, borderRadius: 10, marginBottom: 20 }}
       />
-      <Button title='Login with Phone number' onPress={signInWithPhoneNumber} />
+      <Button title='Login with Phone number2' onPress={signInWithPhoneNumber} />
     </View>
   );
 }

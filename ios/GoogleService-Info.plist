@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1089098292197-pspa0mb1ghtrhe16noqf9rn0f4jt7130.apps.googleusercontent.com</string>
+	<string>1089098292197-39jvff3s0d2fedif0nu3qn58q2nri63t.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1089098292197-pspa0mb1ghtrhe16noqf9rn0f4jt7130</string>
+	<string>com.googleusercontent.apps.1089098292197-39jvff3s0d2fedif0nu3qn58q2nri63t</string>
 	<key>ANDROID_CLIENT_ID</key>
 	<string>1089098292197-5le3atf88b76htepr3q6hd18udith5sf.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
@@ -15,7 +15,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.reactjs.native.example.FirebaseAuth</string>
+	<string>com.poneahealth.patient.firebase</string>
 	<key>PROJECT_ID</key>
 	<string>ponea-dev-pt</string>
 	<key>STORAGE_BUCKET</key>
@@ -31,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1089098292197:ios:22878b447161abdeafad0c</string>
+	<string>1:1089098292197:ios:ff0b0ef1276f60c5afad0c</string>
 </dict>
 </plist>
